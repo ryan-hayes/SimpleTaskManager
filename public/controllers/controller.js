@@ -1,11 +1,9 @@
 var myApp = angular.module('myApp', []);
 myApp.controller('AppCtrl', ['$scope', '$http',
 	function($scope, $http) {
-		console.log("Hello world from controller");
 
 		var refresh = function() {
 			$http.get('/taskmgr').then(function(response) {
-				console.log("I got the data I requested!");
 				$scope.tasks = response.data;
 				$scope.task = null;
 			});
@@ -45,5 +43,5 @@ myApp.controller('AppCtrl', ['$scope', '$http',
 		$scope.deselect = function() {
 			$scope.task = "";
 		}
-	} 
+	}
 ]);
