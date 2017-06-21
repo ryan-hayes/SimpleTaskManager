@@ -1,5 +1,5 @@
 # SimpleTaskManager
-This is a very lightweight project that I just started arising from a need for a more visually-appealing and minimalistic personal organization app. Core capabilities will include task management, access control and authorization, persistence of tasks, and archival/retrieval, among others. The application features a RESTful API that can currently facilitate basic task adding/updating/retrieval/deletion.
+This is a very lightweight project that I just started because I wanted a more visually-appealing and minimalistic personal organization app. Core capabilities will include task management, access control and authorization, persistence of tasks, and archival/retrieval, among others. The application features a RESTful API that can currently facilitate basic task adding/updating/retrieval/deletion.
 
 Technology stack:
 - MongoDB
